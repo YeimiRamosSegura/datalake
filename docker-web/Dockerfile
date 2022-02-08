@@ -29,3 +29,4 @@ RUN apt-get update && apt-get install -y \
         pgsql \
     && docker-php-ext-install zip \
     && docker-php-source delete
+#chown -R 5050:5050 ./docker-web/pgadmin
