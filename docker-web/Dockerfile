@@ -1,3 +1,4 @@
+FROM debian
 FROM php:fpm-alpine
 RUN apk update && apk add --no-cache \
         postgresql-dev \
